@@ -1,0 +1,28 @@
+.container {
+    margin: auto;
+    margin-top: 1em;
+    width: 30em;
+    height: 30em;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cell {
+    width: 1em;
+    height: 1em;
+    padding: 0.1em;
+    border: 1px color: black;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Nunito', sans-serif;
+    border-style: solid;
+}
+
+#message {
+    font-size: 4em;
+    width: 60%;
+    margin 0
+
+    }
+}
